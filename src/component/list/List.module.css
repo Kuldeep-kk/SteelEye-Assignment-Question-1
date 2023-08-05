@@ -1,0 +1,7 @@
+.container {
+  width: 100%;
+  padding: 1em;
+  border-radius: 1em;
+  background-image: linear-gradient(to right bottom, #043463, #244069, #384d70, #4a5a76, #5c677c);
+  color: white;
+}

@@ -1,0 +1,35 @@
+.header {
+  display: flex;
+  padding: 0 1em;
+  background-image: linear-gradient(to bottom, #152034, #263045, #374257, #495469, #5c677c);
+  color: white;
+  justify-content: space-between;
+}
+
+.actionBox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1em;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(184, 199, 214);
+  gap: 1em;
+  margin: 1em;
+}
+
+.section {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 1em;
+}
+@media (max-width: 767px) {
+  .section{
+    flex-direction: column;
+  }
+}
+

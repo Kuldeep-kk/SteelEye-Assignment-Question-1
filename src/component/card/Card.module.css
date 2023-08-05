@@ -1,0 +1,24 @@
+.container {
+  background-image: linear-gradient(to right bottom, #043463, #244069, #384d70, #4a5a76, #5c677c);
+  border-radius: 1em;
+  color: white;
+  flex: 50%;
+}
+
+.cell {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1em;
+  padding: 1em;
+  background-color: rgba(255, 255, 255, 0.089);
+}
+
+.title {
+  padding: 1em;
+  font-size: large;
+  font-weight: bold;
+}
+
+.value {
+  border-bottom: 1px solid;
+}
